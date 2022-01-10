@@ -1,4 +1,4 @@
-package org.xfang.oopchallenge;
+package org.xfang.hellojava.oopchallenge;
 
 import java.util.Scanner;
 
@@ -101,10 +101,7 @@ public class Main_oopchallenge {
                     while (notQuit) {
                         patient.stomach.stomachOperations();
                         switch (optionPrompt()) {
-                            case 1 -> {
-                                patient.stomach.setDigesting(true);
-
-                            }
+                            case 1 -> patient.stomach.setDigesting(true);
                             case 2 -> notQuit = false;
                         }
                     }

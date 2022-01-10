@@ -1,4 +1,4 @@
-package org.xfang.datatype;
+package org.xfang.hellojava.datatype;
 
 import java.awt.*;
 import java.util.Date;

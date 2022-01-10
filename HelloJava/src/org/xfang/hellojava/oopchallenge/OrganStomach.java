@@ -1,4 +1,4 @@
-package org.xfang.oopchallenge;
+package org.xfang.hellojava.oopchallenge;
 
 public class OrganStomach extends Organ {
     private boolean isDigesting;
